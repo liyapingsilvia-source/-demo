@@ -1,0 +1,5 @@
+{
+  "name": "豆包 AI",
+  "description": "一个类似豆包的中文 AI 对话应用，支持语音输入模式。",
+  "requestFramePermissions": ["microphone"]
+}

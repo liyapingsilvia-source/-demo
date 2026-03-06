@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-doubao-blue: #007AFF;
+  --color-doubao-bg: #F7F7F7;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+body {
+  background-color: white;
+  color: #1a1a1a;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.safe-area-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+@keyframes wave {
+  0%, 100% { height: 4px; }
+  50% { height: 24px; }
+}
+
+.wave-bar {
+  width: 3px;
+  background-color: white;
+  border-radius: 2px;
+  animation: wave 1s ease-in-out infinite;
+}
